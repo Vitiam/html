@@ -13,7 +13,7 @@
     color: rgb(85, 85, 85);
 }
 
-}
+
 #Limited, #Lingerie-Sets  {
     text-align: left;
     color: rgb(107, 107, 107);
@@ -45,15 +45,21 @@ img.erica, .lilly, .caroline, .eloise {
     font-size: 20px;
     text-align: center;
 }
-
-.button {
+.button_collection {
+    background-color: rgb(197, 175, 147);
+    cursor: pointer;
+    margin-top: 25px;
+    line-height: 16px;
+    transition: background-color 0.5s;
+}
+/*.button {
     color: white; 
     height: 52px;      
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     width: 151.672px;
 
-}
+}*/
 .button:hover {
     color: white;
     background-color: #a6a6a6;
